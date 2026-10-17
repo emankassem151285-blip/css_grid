@@ -1,0 +1,266 @@
+.container-product{
+    background-color: white;
+    border: 2px solid rgb(221, 214, 214);
+    margin: 20px 20px;
+    width: 50%;
+    margin: auto;
+
+
+}
+.row1{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    background-color: aliceblue;
+    width: 520px;
+    margin: auto;
+
+}
+.col{
+    width: 160px;
+    height: fit-content;
+    border: 1px solid rgb(221, 228, 221);
+    margin:5px;
+    text-align: center;
+}
+.row1 img{
+width: 100%;
+height: 100%;
+}
+.price{
+    color: red;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr ;
+
+    gap: 5px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.row2-col1{
+    width: 300px;
+    margin: auto;
+    height: fit-content;
+
+}
+.row2-col1 img{
+    width:100%;
+
+}
+
+.row2-col2{
+width: 150px;
+margin: auto;
+height: fit-content;
+
+}
+.row2-col2 img{
+width: 100%;
+
+}
+
+.row2-col-3{
+
+width: 150px;
+margin: auto;
+height: fit-content;
+}
+
+.row2-col-3 img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.container-items{
+    background-color: white;
+    margin: 20px 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(221, 214, 214);
+}
+
+.price1{
+color: rgb(94, 92, 92);
+}
+
+
+.items-1{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+.items-2{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+
+.item{
+width: 150px;
+margin: auto;
+position:relative;
+
+}
+
+img{
+    width: 100%;
+}
+.popular{
+    margin: 20px;
+}
+
+
+.add-to-cart-btn{
+    position: absolute;
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    height: fit-content;
+    visibility: hidden;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    transition:  .5s ease;
+}
+
+.item:hover .add-to-cart-btn{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.f-img{
+width: 100px;
+margin: auto;
+
+}
+
+.container-3{
+
+    background-color: white;
+    margin: 20px 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(221, 214, 214);
+
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    padding: 5px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.container-3{
+
+    background-color: white;
+    margin: 20px 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(221, 214, 214);
+
+}
+
+.banner1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr  ;
+    gap: 5px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    padding: 5px;
+    align-items: center;
+   
+
+}
+.pro-b{
+    position: relative;
+    width: 175px;
+    margin: auto;
+}
+.pro-b p{
+    position:absolute;
+    left: 20px;
+    top:30px;
+    color :white;
+    font-weight: bold;
+}
+span{
+    color: red;
+    position: absolute;
+    position:absolute;
+    left: 20px;
+    top:60px;
+    font-size: small;
+}
+
+
+.banner2{
+
+    display: grid;
+    grid-template-columns: 1fr   1fr  ;
+    gap: 3px;
+    width: 620px;
+    margin: auto;
+    background-color: azure;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+
+}
+
+.final-item{
+    
+width: 290px;
+margin: auto;
+height: 180px;
+position: relative;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.final-item p{
+    position:absolute;
+ top :70px;
+ left:10px;
+ color:beige;
+
+}
+
+.final-item button{
+color: wheat;
+
+position:absolute;
+top:102px;
+left: 15px;
+
+}
